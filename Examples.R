@@ -127,3 +127,4 @@ ggplot() +
   xlim(agelims) +
   labs(title = "Step Function")
 
+detach(Wage)
