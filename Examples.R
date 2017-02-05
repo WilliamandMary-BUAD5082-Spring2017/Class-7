@@ -1,6 +1,6 @@
 rm(list=ls())
 ############################
-## Polynomial Regressdion ##
+## Polynomial Regression ##
 ############################
 
 #Use "Wage" data to show how easily non-linear 
