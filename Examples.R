@@ -101,7 +101,7 @@ ggplot() +
 
 #Now suppose we wanted to cut the data into our own categories
 #we can do this with the "breaks" option
-table(cut(Wage$age,breaks=c(0,20,30,40,60)))
+table(cut(Wage$age,breaks=c(0,20,30,40,60,80)))
 fit_step = lm(wage~cut(age,breaks=c(0,20,30,40,60,80)), data = Wage)
 print(coef(summary(fit_step)))
 preds = predict(fit_step, newdata = list(age = age_grid), se = TRUE)
